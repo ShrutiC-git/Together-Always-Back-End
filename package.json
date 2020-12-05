@@ -1,0 +1,29 @@
+{
+  "name": "ttny-data-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.0.7",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.1",
+    "http-errors": "^1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.4",
+    "morgan": "~1.9.1",
+    "needle": "^2.5.2",
+    "passport": "^0.4.1",
+    "passport-twitter": "^1.0.4",
+    "passport-twitter-token": "^1.3.0",
+    "request": "^2.88.2"
+  }
+}
