@@ -6,3 +6,6 @@
 - OAuth1.1 for authentication with Twitter
 - MongoDB support
 - Needle for sending async requests
+
+### Available script
+npm start
